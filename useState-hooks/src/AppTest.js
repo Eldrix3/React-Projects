@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { personell } from "./Personell";
+import Person from "./components/Person";
 
 function App() {
   console.log(personell);

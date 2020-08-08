@@ -1,16 +1,16 @@
 export const personell = [
   {
-    name: "Sword",
+    name: "Max",
     id: 1,
     weight: 10,
   },
   {
-    name: "Potion",
+    name: "Abel",
     id: 2,
     weight: 0.5,
   },
   {
-    name: "Apple",
+    name: "Yuan",
     id: 3,
     weight: 0.2,
   },
