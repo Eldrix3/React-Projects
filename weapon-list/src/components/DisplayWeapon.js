@@ -1,14 +1,13 @@
 import React from "react";
 
-const DisplayWeapon = (items) => {
+const DisplayWeapon = ({ items }) => {
   console.log(items);
-
   return (
-    <div>
+    <section className="cards">
       {items.map((item) => (
-        <h1>{item.name}</h1>
+        <h1 key={item.id}>{item.name}</h1>
       ))}
-    </div>
+    </section>
   );
 };
 
