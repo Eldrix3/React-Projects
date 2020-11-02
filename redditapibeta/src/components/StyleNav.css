@@ -1,0 +1,8 @@
+.Cards {
+  margin: 50px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.CardBody {
+}
